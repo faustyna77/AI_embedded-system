@@ -1,0 +1,16 @@
+s\x5cdebugpy\x5clauncher' '52682' '--' 'E:\x5cInformatyka\x5chugging_face\x5cport.py' ;c017cde3-af65-4a8b-a4ce-68b3a632c7c8Odczytana wartość: 0
+Decyzja modelu: 1
+decision g2_digit_decision=1i 1753140892482825000
+Decyzja zapisana.
+Exception ignored in: <function InfluxDBClient.__del__ at 0x00000193F207DA80>
+Traceback (most recent call last):
+  File "c:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\influxdb_client\client\influxdb_client.py", line 320, in __del__
+  File "c:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\influxdb_client\_sync\api_client.py", line 84, in __del__
+  File "c:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\influxdb_client\_sync\api_client.py", line 661, in _signout
+TypeError: 'NoneType' object is not callable
+Exception ignored in: <function ApiClient.__del__ at 0x00000193F3181D00>
+Traceback (most recent call last):
+  File "c:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\influxdb_client\_sync\api_client.py", line 84, in __del__
+  File "c:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\influxdb_client\_sync\api_client.py", line 661, in _signout
+TypeError: 'NoneType' object is not callable
+PS E:\Informatyka\hugging_face> 
